@@ -3,7 +3,6 @@ package com.example.spotifyclone.adapters
 import androidx.recyclerview.widget.AsyncListDiffer
 import com.bumptech.glide.RequestManager
 import com.example.spotifyclone.R
-import com.example.spotifyclone.data.entities.Song
 import kotlinx.android.synthetic.main.list_item.view.*
 import javax.inject.Inject
 
