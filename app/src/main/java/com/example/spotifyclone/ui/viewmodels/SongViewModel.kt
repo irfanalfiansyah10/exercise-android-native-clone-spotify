@@ -35,6 +35,7 @@ class SongViewModel @Inject constructor(
             while (true) {
                 val pos = playbackState.value?.currentPlaybackPosition
                 if (curPlayerPosition.value != pos) {
+                    println(pos)
                     _curPlayerPosition.postValue(pos)
                     _curSongDuration.postValue(MusicService.curSongDuration)
                 }
